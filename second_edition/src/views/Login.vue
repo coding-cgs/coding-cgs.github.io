@@ -160,7 +160,7 @@ export default {
   width: 100vw;
   position: absolute;
   background-color: #3b81b7;
-  top: 0;
+  top: 0px;
   left: 0vw;
   transition: 0.4s;
 }

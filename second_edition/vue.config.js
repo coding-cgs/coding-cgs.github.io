@@ -5,7 +5,8 @@ module.exports = {
             postcss:{
                 plugins:[
                     require('postcss-pxtorem')({
-                        rootValue:37.5,
+                        // remUnit:75,
+                        rootValue:75,
                         propList:['*']
                     })
                 ]
